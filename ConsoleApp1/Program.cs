@@ -12,7 +12,7 @@ class Program
         Console.Write("Enter second number: ");
         int num2 = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("Choose operation (+, -, *, /): ");
+        Console.WriteLine("Choose operation (+, -, *, /, ^): ");
         string op = Console.ReadLine();
 
         int result = 0;
