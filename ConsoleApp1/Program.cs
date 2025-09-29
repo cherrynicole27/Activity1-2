@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Simple Calculator");
+        Console.WriteLine("Calculator Pero Hindi Simple");
 
         Console.Write("Enter first number: ");
         int num1 = Convert.ToInt32(Console.ReadLine());
