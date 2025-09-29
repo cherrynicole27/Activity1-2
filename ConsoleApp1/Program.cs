@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Calculator Pero Hindi Simple");
+        Console.WriteLine("Simple Calculator");
 
         Console.Write("Enter first number: ");
         int num1 = Convert.ToInt32(Console.ReadLine());
@@ -12,7 +12,7 @@ class Program
         Console.Write("Enter second number: ");
         int num2 = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("Choose operation (+, -, *, /, ^): ");
+        Console.WriteLine("Choose operation (+, -): ");
         string op = Console.ReadLine();
 
         int result = 0;
